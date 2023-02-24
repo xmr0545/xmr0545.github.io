@@ -3,6 +3,10 @@
 }
 
 body {
+  /* 背景をグラデーションにする */
+  background: linear-gradient(45deg, #10100E, #A72F37);
+  color:#cccccc;
+
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
@@ -28,12 +32,12 @@ a {
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
 }
 
 .top-wrapper p {
   opacity: 0.7;
-  font-size: 16px;
+  font-size: 24px;
   margin-bottom: 40px;
 }
 
@@ -76,7 +80,7 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 60px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
@@ -85,13 +89,33 @@ header {
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 48px;
+  margin-top: 5px;
 }
 
 .header-left {
   float: left;
 }
+
+
+.header-text {
+  float: left;
+  margin-right: -25px;
+}
+
+.header-text a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: lightblue;
+  display: block;
+  float: left;
+  font-size: 24px;
+  transition: all 0.5s;
+}
+
+
+
+
 
 .header-right {
   float: right;
@@ -101,7 +125,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: lightgray;
   display: block;
   float: left;
   transition: all 0.5s;
@@ -177,20 +201,6 @@ header {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
 .menu-icon {
   color: white;
   float: right;
@@ -202,6 +212,27 @@ footer {
 .clear {
   clear: left;
 }
+
+footer img {
+  width: 40px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 20;
+  z-index: 10;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 
 @media all and (max-width: 1000px) {
   .lesson {
@@ -269,3 +300,4 @@ footer {
     width: 100%;
   }
 }
+
