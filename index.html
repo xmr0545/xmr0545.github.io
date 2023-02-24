@@ -2,32 +2,36 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=3.0, height=1080, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, maximum-scale=2.0, height=1080, initial-scale=1.0">
   <title></title>
 <!--  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
 <!--  <link href="<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">" -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
-
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="mrxIcon2.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-<!--      <span class="fa fa-solid fa-bars menu-icon"></span> -->
-      <div class="header-right">
-        <a href="#">Coming Soon</a>
-        <a href="PrivacyPolicy.html">Privacy Policy</a>
-      </div>
-      <div class="header-text">
-        Mr.x
-      </div>
+  <!-- ナビゲーションバー -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-gray p-3 mb-3 border-bottom shadow-sm">
+    <a class="navbar-brand" href="#">&ensp;&ensp;&ensp;&ensp;&ensp;Mr.x</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ComingSoon <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="PrivacyPolicy.html">Privacy Policy</a>
+        </li>
+      </ul>
+<!--      <a class="btn btn-outline-primary ml-lg-4" href="#">LogIn</a> -->
     </div>
-  </header>
+  </nav>
   <div class="top-wrapper">
     <div class="container">
       <h1>Computers, Games, and Playfulness.<br>Let's Play Your Style</h1>
@@ -36,17 +40,27 @@
   </div>
   <footer>
     <div class="container">
-      <p></p>
       <img src="mrxIcon3.png">
       Mr.x<br>
-      <a href="PrivacyPolicy.html">PrivacyPolicy&ensp;&ensp;&ensp;&ensp;</a>
-      <a href="mailto: xmr0545@gmail.com">ContactUs:xmr0545@gmail.com&ensp;&ensp;&ensp;&ensp;</a>
+      <a href="PrivacyPolicy.html">PrivacyPolicy</a><br>
+      <a href="mailto: xmr0545@gmail.com">ContactUs:xmr0545@gmail.com</a><br>
       <a href="https://xmr0545.github.io/">URL:https://xmr0545.github.io/</a>
       <div class="copyright">
         © 2023 Mr.x
       </div>
     </div>
   </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
 </body>
-</footer>
 </html>
