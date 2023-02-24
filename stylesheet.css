@@ -25,7 +25,7 @@ a {
   background: url("mrxIcon3.png") no-repeat left center;
   background-size: 16;
   height: 40px;
-  width: 250px;
+  width: device-width;
 }
 
 .nav-item {
