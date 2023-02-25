@@ -124,7 +124,6 @@ footer {
   height: 170px;
   width: 100%;
   background-color: rgba(34,49,52,0.3);
-  position :fixed;
   top: 20;
   z-index: 10;
   padding-top: 30px;
