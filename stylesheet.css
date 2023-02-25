@@ -120,10 +120,10 @@ footer a {
 }
 
 footer {
-  margin-top: 100px;
+  margin-top: 1px;
   height: 170px;
   width: 100%;
-  background-color: rgba(34,49,52,0.7);
+  background-color: rgba(134,149,152,0.1);
   top: 20;
   padding-top: 30px;
   padding-bottom: 20px;
