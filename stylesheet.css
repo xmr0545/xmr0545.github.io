@@ -28,6 +28,10 @@ a {
   width: device-width;
 }
 
+.navbar-light .navbar-toggler {
+    border-color: rgba(0,0,0,0);
+}
+
 .nav-item {
   text-align: center;
 }
