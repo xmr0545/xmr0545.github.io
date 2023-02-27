@@ -28,7 +28,7 @@ a {
   width: device-width;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-toggler {
     border-color: rgba(0,0,0,0);
 }
 
