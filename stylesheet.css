@@ -28,9 +28,17 @@ a {
   width: device-width;
 }
 
-.navbar-toggler {
-    border-color: rgba(0,0,0,0);
+.navbar-toggler{
+  border: none;
+  size: 50px;
 }
+.navbar-toggler:active{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+
 
 .nav-item {
   text-align: center;
